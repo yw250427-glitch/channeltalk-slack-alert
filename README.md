@@ -77,7 +77,7 @@ pytest tests/ -v
 ## ⚙️ 채널톡 Webhook 설정
 
 1. 채널톡 관리자 → **개발자 도구** → **Webhook**
-2. URL: `https://YOUR_SERVER_URL/webhook/channeltalk`
+2. URL: `https://web-production-d1064.up.railway.app/webhook/channeltalk`
 3. 이벤트: `message_created` 체크
 4. Webhook Secret 복사 → `.env`의 `CHANNELTALK_WEBHOOK_SECRET`에 입력
 
